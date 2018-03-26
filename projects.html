@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+
+
+<head>
+
+<meta charset = "utf-8"/>
+<meta name  = "author" content = "Michael Becker">
+<meta name = "keywords" content = "Carnegie Mellon University, CV">
+<meta name  = "descriptions" content = "Michael Becker Professional Website">
+<link rel = "stylesheet" media = "all" type = "text/css" href = "css/styles.css" />
+<link rel = "stylesheet" media = "all" type = "text/css" href = "css/jquery-ui.css" />
+<link rel = "stylesheet" media = "all" type = "text/css" href = "css/jquery.lightbox.css" />
+<script type= "text/javascript" src = "js/jquery-3.3.1.min.js"> </script>
+<script type= "text/javascript" src = "js/jquery-ui.js"> </script>
+<script type= "text/javascript" src = "js/scripts.js"> </script>
+<script type = "text/javascript" src = "js/jquery.lightbox.min.js"> </script>
+
+<script type = "text/javaScript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+</script>
+
+<script>
+$(function() {
+    $("#accordion").accordion();
+    });
+</script>
+<title> My Website </title>
+
+<script>
+$(function() { 
+    $("#tabs").tabs({
+        event: "mouseover"
+        });
+});
+</script>
+
+
+</head>
+
+
+<body>
+	<div id = "container">
+		<div id = "top_row">
+		<header>
+		<h1> Michael Becker </h1>
+		<h2> Carnegie Mellon University, Information Systems Program </h2>
+
+		</header>
+
+	<nav>
+	    <a href  = "index.html"> About </a>  
+	    <a class = "selected" href = "projects.html" > Projects </a>  
+	    <a href = "contact.html" > Contact </a>  
+	</nav>
+	</div>
+
+	<div id = "content">
+	    <h3> Projects </h3>
+        <div id = "accordion">
+        <h4> Case Analysis Project </h4>
+        <div> <p>
+        Lorem ipsum dolor sit amet, veritus temporibus vis no, sea ad novum platonem, mea assum minimum 
+        deleniti at. In accusam hendrerit scribentur vis, ex eos populo minimum eligendi. Cu dicat veniam
+        est, sed ad velit saepe consetetur. Te nonumy accommodare vis. Vix quot mollis invenire id, ei vide 
+        quodsi deleniti nam. Usu in homero vituperata inciderint. Ei nihil ceteros est.
+        </p> </div>
+        <h4> Web Development Project </h4>
+        <div> <p>
+        Pri mucius repudiare ut. At quidam animal assueverit pri, eum dolor dictas in. 
+        No omnis reque mea, adhuc dictas oblique ei mea. Te timeam volumus reprimique vis.
+        Id diam oratio tollit mea. Vis vide mollis suscipiantur et.
+        </p> </div> 
+        <h4> Database Project </h4>
+        <div> <p> 
+        Pro in quis lucilius conclusionemque, eam id sententiae inciderint definitionem,
+        et cum possim persequeris intellegebat. Vix in denique evertitur dissentiet, ullum laudem
+        ornatus ea duo. Quo ex possim utroque molestie, ei pro prompta euismod, sed no doctus dolorum laboramus. 
+        Soleat postulant expetendis vix no, his an aeterno 
+        </p> </div>
+        </div>
+        <div id = "tabs">
+        <ul>
+            <li> <a href = "#tabs-1" > Case Analysis Project </a> </li>
+            <li> <a href = "#tabs-2"> Web Development Project </a> </li>
+            <li> <a href = "#tabs-3"> Database Project </a> </li>
+        </ul>
+
+        <div id = "tabs-1">
+        <p> Vix cu tractatos salutatus aliquando, ne assum erant eum. At eum ignota
+        doming impetus, pri te meis dolor iracundia. Clita blandit vim an, mea persius
+        numquam ei, ne error efficiantur his. Sed assum efficiendi assueverit eu, zril 
+        invidunt periculis eos ad, nam ea rationibus accommodare. An partem timeam 
+        impetus sea. </p>
+        </div>
+        
+        <div id = "tabs-2">
+        <p> Ei usu sale scriptorem. Diam equidem vis ea, viris expetendis cu mei. 
+        Sit regione atomorum quaerendum eu. Tale delicata eos in, vix dicunt vivendum ut.
+        Vim mundi suavitate ex, vis ea moderatius dissentiunt. Te vim audire lobortis 
+        appellantur. </p>
+        </div>
+        
+        <div id = "tabs-3">
+        <p> Possit inimicus tincidunt ex vis, commodo inermis te ius, nec sint nulla te. 
+        Elit justo facilisis usu ne, ei facete recusabo splendide vim. Nonumy delenit
+        invidunt ei sed, quo stet laoreet eu, porro dolores praesent te pri. An eum 
+        referrentur comprehensam, ex ius idque malorum. </p>
+        </div>
+        </div>
+        <div id = "content-gallery">
+            <p> Click on the thumbnail to see full image and description </p>
+            <div id = "gallery">
+                <div id = "galleryThumbnail"> <div id = "thmbnlShadow">
+                <a href= "images/image1.jpg" title = "The case analysis project evaluated a variety of enterprise
+                layer concepts at Cirque du Soleil.">
+                <img src = "images/image1thumb.jpg" alt = "image 1"/> </a></div> </div>
+                
+                <div id = "galleryThumbnail"> <div id = "thmbnlShadow">
+                <a href = "images/image2.jpg" title = "The web development project  utitlized 
+                several front-end web development techniques using HTML , CSS, and JavaScript.">
+                <img src = "images/image2thumb.jpg" alt = "image 2"/> </a></div> </div>
+                
+                <div id = "galleryThumbnail"> <div id = "thmbnlShadow">
+                <a href = "images/image3.jpg" title = "The database project included a entity 
+                relationship diagram and several data creation and manipulation techniques in MySQL.">
+                <img src = "images/image3thumb.jpg" alt = "image 3"/> </a></div> </div>
+        </div>
+        
+        
+    </div>
+		<table border="4">
+		<tr>
+			<th colspan="4">Course Projects</th>
+		</tr>
+		  <tr>
+			<th>Title</th>
+			<th>Course</th>
+			<th>Semester</th>
+		  </tr>
+		  <tr onmouseover = "showDescription('In the case analysis project, we analyzed SmoothPay and described how we could improve their process');" onmouseout= "hideDescription();">
+			<td> Case Analysis Project</td>
+			<td> 67-250 </td>
+			<td> Spring 2018</td>
+		  </tr>
+		  <tr onmouseover = "showDescription('In the web development project, we applied our web dev lab skills to a real world scenario.');" onmouseout= "hideDescription();">
+			<td>Web Development Project</td>
+			<td>67-250</td>
+			<td>Spring 2018</td>
+		  </tr>
+		  <tr onmouseover= "showDescription('In the database project, we learned how to model the of a company in relational form.');" onmouseout= "hideDescription();">
+			<td>Database Project</td>
+			<td>67-250</td>
+			<td>Spring 2018</td>
+		  </tr>
+		</table>
+        <div id = "description"> </div>
+	</div>
+
+	<div id = "sidebar">
+		<h3> Find Me </h3>
+		Michael Becker <br/>
+		<a href = "http://www.cmu.edu" target = "_blank"> Carnegie Mellon University </a> <br/>
+		5000 Forbes Avenue <br/>
+		Pittsburgh, PA 15213 <br/>
+		412-268-0000 (h) <br/>
+		412-555-5555 (c) <br/> <br/>
+		<a href =  "mailto:mwbecker@andrew.cmu.edu" target = "_blank"> <img src = "images/email.png"> </a>
+		<a href =  "https://www.linkedin.com/in/michael-b-428743125/" target = "_blank"> <img src = "images/linkedin.png"></a>
+		<a href = "https://www.facebook.com/mikeyb.html5"target = "_blank"> <img src = "images/facebook.png"></a>
+	</div>
+
+	<footer>
+	    <hr/>
+	    &copy; Michael Becker 2018 <br/>
+	    <a href = "mailto:mwbecker@andrew.cmu.edu"> Email Me </a> </br>
+
+	    <a href = "http://cmu.edu" target = "_blank"> Carnegie Mellon University </a>
+	</footer>
+</div>
+
+</body>
+</html>
